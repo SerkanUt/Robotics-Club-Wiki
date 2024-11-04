@@ -9,9 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Welcome to the Robotics Club Wiki',
-  tagline: 'Here you will find how-tos on projects, manufacturing processes, and interesting findings. This will also be where we showcase some projects. The wiki's purpose is to put all of our knowledge in one place so we don't have trouble looking up anything we have trouble with. 
-
-This knowledge base is accessible to everyone, anyone can add anything they want that is related to engineering, coding, or robotics.',
+  tagline: "Here you will find how-tos on projects, manufacturing processes, and interesting findings. This will also be where we showcase some projects. The wiki's purpose is to put all of our knowledge in one place so we don't have trouble looking up anything we have trouble with. This knowledge base is accessible to everyone, anyone can add anything they want that is related to engineering, coding, or robotics.",
   favicon: 'img/RoboticsLogo.jpg',
 
   // Set the production url of your site here
