@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/RoboticsLogo.jpg',
       navbar: {
         title: 'Home',
         logo: {
@@ -88,7 +88,67 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'docSidebar',
+            sidebarId: 'electricalSidebar',
+            position: 'left',
+            label: 'Electrical',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'computerScienceSidebar',
+            position: 'left',
+            label: 'Computer Science/Coding',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'mechanicalSidebar',
+            position: 'left',
+            label: 'Mechanical',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectsSidebar',
+            position: 'left',
+            label: 'Projects',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'cadSidebar',
+            position: 'left',
+            label: '3D Printing/CAD',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'generalSidebar',
+            position: 'left',
+            label: 'General Engineering',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'mathSidebar',
+            position: 'left',
+            label: 'Engineering Mathematics',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'toolsSidebar',
+            position: 'left',
+            label: 'How To: Tools',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'printerSidebar',
+            position: 'left',
+            label: 'How To: 3D Printer',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'miscSidebar',
+            position: 'left',
+            label: 'Miscellaneous',
+          },
+          {
+            href: 'https://github.com/NJIT-Robotics-Club',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,11 +158,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Website & Highlander Hub',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'NJIT Robotics Club',
+                href: 'https://www.roboticsclub.njit.edu/',
+              },
+              {
+                label: 'Highlander Hub',
+                href: 'https://njit.campuslabs.com/engage/organization/nrc',
               },
             ],
           },
@@ -110,16 +174,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/NJITRobotics/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://njit.gg/robotics',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCv5vTAes2gOxcjiAhyaEsPA',
               },
             ],
           },
@@ -127,17 +191,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/njitrobotics/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@njit_robotics_club',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/company/njit-robotics-club/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NJIT Robotics Club. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
