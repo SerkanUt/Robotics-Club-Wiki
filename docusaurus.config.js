@@ -137,12 +137,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'printerSidebar',
-            position: 'left',
-            label: 'How To: 3D Printer',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'miscSidebar',
             position: 'left',
             label: 'Miscellaneous',
