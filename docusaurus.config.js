@@ -125,12 +125,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'mathSidebar',
-            position: 'left',
-            label: 'Engineering Mathematics',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'toolsSidebar',
             position: 'left',
             label: 'How To: Tools',
