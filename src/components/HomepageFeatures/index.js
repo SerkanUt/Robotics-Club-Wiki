@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Information is accurate and up-to-date',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/fact-check-svgrepo-comsvg').default,
     description: (
       <>
         The Robotics Club maintains all information accurate and up-to-date. If any information is incorrect, please let the editor know about the Wiki entry so they can correct it.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Uses easy to learn language',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/react-svgrepo-com.svg').default,
     description: (
       <>
         Powered by React and MDX, these are simple easy-to-learn languages, if you have trouble there are guides online for you to look at. 
