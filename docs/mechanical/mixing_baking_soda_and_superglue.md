@@ -14,3 +14,5 @@ To increase the bond strength and shorten the cure of super glue, you can mix it
 [https://youtu.be/c4AhV9mTO_U?feature=shared](https://youtu.be/c4AhV9mTO_U?feature=shared)
 
 [https://aronalpha.net/blog/how-strong-is-super-glue-baking-soda/](https://aronalpha.net/blog/how-strong-is-super-glue-baking-soda/)
+
+Made by Nicolas Arisi-Fernandez
