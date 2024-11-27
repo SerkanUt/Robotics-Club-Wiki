@@ -46,12 +46,14 @@ const config = {
           editUrl:
             'https://github.com/Nicholasbbb/roboticsclubwiki.github.io/',
         },
+        /**
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          */
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -86,7 +88,7 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/NJIT-Robotics-Club',
             label: 'GitHub',
