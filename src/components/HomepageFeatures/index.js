@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Made with Docusaurus',
-    Svg: require('@site/static/img/docusaurus-social-card.jpg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
         Docusaurus is used to make the wiki. Docusarus is an easy-to-use website builder that builds simple documentation sites quickly.  
