@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Made with Docusaurus',
+    Svg: require('@site/static/img/docusaurus-social-card.jpg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Docusaurus is used to make the wiki. Docusarus is an easy-to-use website builder that builds simple documentation sites quickly.  
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Information is accurate and up-to-date',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The Robotics Club maintains all information accurate and up-to-date. If any information is incorrect, please let the editor know about the Wiki entry so they can correct it.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Uses easy to learn language',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Powered by React and MDX, these are simple easy-to-learn languages, if you have trouble there are guides online for you to look at. 
       </>
     ),
   },
