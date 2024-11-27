@@ -167,3 +167,5 @@ function updateDisplay() { //here how you can update the website based on an htm
 
 updateDisplay();
 ```
+
+Made by Nicolas Arisi-Fernandez
