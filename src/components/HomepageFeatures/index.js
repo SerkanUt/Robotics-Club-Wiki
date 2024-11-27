@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Information is accurate and up-to-date',
-    Svg: require('@site/static/img/fact-check-svgrepo-comsvg').default,
+    Svg: require('@site/static/img/fact-check-svgrepo-com.svg').default,
     description: (
       <>
         The Robotics Club maintains all information accurate and up-to-date. If any information is incorrect, please let the editor know about the Wiki entry so they can correct it.
