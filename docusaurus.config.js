@@ -13,16 +13,17 @@ const config = {
   favicon: 'img/RoboticsLogo.jpg',
 
   // Set the production url of your site here
-  url: 'https://nicholasbbb.github.io',
+  url: 'https://njit-robotics-club.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/roboticsclubwiki.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Nicholasbbb', // Usually your GitHub org/user name.
+  organizationName: 'NJIT-Robotics-Club', // Usually your GitHub org/user name.
   projectName: 'roboticsclubwiki.github.io', // Usually your repo name.
 
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -43,11 +44,11 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/Nicholasbbb/roboticsclubwiki.github.io/',
+//          editUrl:
+//           'https://github.com/NJIT-Robotics-Club/roboticsclubwiki.github.io/',
         },
-        /**
-        blog: {
+        
+      /*  blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -56,13 +57,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Nicholasbbb/roboticsclubwiki.github.io/',
+            'https://github.com/NJIT-Robotics-Club/roboticsclubwiki.github.io/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
-        */
+       */ 
         theme: {
           customCss: './src/css/custom.css',
         },
